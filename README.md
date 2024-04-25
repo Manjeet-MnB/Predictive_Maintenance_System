@@ -14,3 +14,6 @@ Output
 Batch Prediction
 <img width="1280" alt="PM3" src="https://github.com/Manjeet-MnB/Predictive_Maintenance_System/assets/71639295/6d58042d-8749-4fbf-8c55-4cd83d040a44">
 
+
+Project Live Working Video
+https://drive.google.com/file/d/1wEvesGdCXlN82zJscGhHfT2a0EoF8zFx/view?usp=drive_link
