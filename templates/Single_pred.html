@@ -1,0 +1,355 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Predictive maintenance</title>
+<style>  
+body {  
+     background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fblack-abstract-background&psig=AOvVaw3KvcGfvq0ZTm1KJZeXMqRr&ust=1696488163634000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCLz4Tl24EDFQAAAAAdAAAAABAE");
+ background-size: cover;
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: fixed;
+  margin-left:100px; 
+} 
+
+
+ .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+
+        }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 10px;
+        }
+
+        .col-75 {
+            float: left;
+            width: 55%;
+            margin-top: 6px;
+        }
+
+ input[type=text],
+        select,
+        textarea {
+            width: 30%;
+            padding: 8px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+ label {
+  color: white;
+  padding: 5px;
+display: block;
+font-weight: bold;
+  background-color: #A6A6A6; color: black;} 
+ 
+
+ input[type=submit] {
+  background-color: #525252;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+margin: auto;
+  position: fixed;
+	   left: 50%;
+	   top:50%;
+  cursor: pointer;
+ font : OCR A; 
+font-weight: bold; 
+width: 200px;
+font-size: 20px; 
+padding: 10px; 
+border-radius: 5px; border: 3px solid yellow;  color: white; display: inline-block; padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  
+display: flex;  
+justify-content: center;  
+align-items: center;  
+}
+
+h1
+ {text-align: center;}
+
+
+</style>  
+</head> 
+ 
+<body>  
+<h1 text-align: "center";>Predictive Maintenance</h1>
+
+
+<div class="form">
+        <form action="{{url_for('predict_data')}}" method="POST">
+            <label for="operation"></label>
+
+            <div class="container">
+                <form action="/action_page.php">
+                   
+		    <!-- Gender -->
+		    
+
+             <!-- Age -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="Cycle">Enter Cycle</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="Cycle" name="Cycle" placeholder="Enter the Cycle">
+                        </div>
+                    </div>
+
+              
+
+                 <!--Inflight_wifi_service -->
+                     <div class="row">
+                        <div class="col-25">
+                            <label for="OpSet1"> Enter OpSet1</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="OpSet1" name="OpSet1"
+                                placeholder="Enter OpSet1">
+                        </div>
+                    </div>
+
+
+                 <!--Departure/Arrival time convenient -->
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="OpSet2">Enter OpSet2</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="OpSet2" name="OpSet2" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="OpSet3">Enter OpSet3</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="OpSet3" name="OpSet3" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure1">Enter SensorMeasure1</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure1" name="SensorMeasure1" placeholder="Enter Your value">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure2">Enter SensorMeasure2 </label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure2" name="SensorMeasure2" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure3">Enter SensorMeasure3</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure3" name="SensorMeasure3" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure4">Enter SensorMeasure4</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure4" name="SensorMeasure4" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure5">Enter SensorMeasure5</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure5" name="SensorMeasure5" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure6">Enter SensorMeasure6</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure6" name="SensorMeasure6" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure7">Enter SensorMeasure7</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure7" name="SensorMeasure7" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure8">Enter SensorMeasure8</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure8" name="SensorMeasure8" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure9">Enter SensorMeasure9</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure9" name="SensorMeasure9" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure10">Enter SensorMeasure10</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure10" name="SensorMeasure10" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure11">Enter SensorMeasure11</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure11" name="SensorMeasure11" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure12">Enter SensorMeasure12</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure12" name="SensorMeasure12" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure13">Enter SensorMeasure13</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure13" name="SensorMeasure13" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure14">Enter SensorMeasure14</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure14" name="SensorMeasure14" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure15">Enter SensorMeasure15</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure15" name="SensorMeasure15" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure16">Enter SensorMeasure16</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure16" name="SensorMeasure16" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure17">Enter SensorMeasure17</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure17" name="SensorMeasure17" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure18">Enter SensorMeasure18</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure18" name="SensorMeasure18" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure19">Enter SensorMeasure19</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure19" name="SensorMeasure19" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure20">Enter SensorMeasure20</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure20" name="SensorMeasure20" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="SensorMeasure21">Enter SensorMeasure21</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="SensorMeasure21" name="SensorMeasure21" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="Life_Ratio">Enter Life_Ratio</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="Life_Ratio" name="Life_Ratio" placeholder="Enter Your value">
+                        </div>
+                    </div>
+
+
+                 
+
+        
+                   <!--Submit Button-->
+ 		   <div class="row" class="center">
+                        <input type="submit"  value=" SUBMIT ">
+                   </div>
+	
+	
+		
+</div>
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+[2024-04-25 19:16:32,167] werkzeug - WARNING -  * Debugger is active!
+[2024-04-25 19:16:32,170] werkzeug - INFO -  * Debugger PIN: 981-157-859
+[2024-04-25 19:16:50,434] root - INFO - Main page is loaded !!
+[2024-04-25 19:16:50,438] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:16:50] "GET / HTTP/1.1" 200 -
+[2024-04-25 19:16:52,527] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:16:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-04-25 19:17:34,685] root - INFO - Single Prediction page is loaded !!
+[2024-04-25 19:17:34,690] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:17:34] "GET /Single_pred HTTP/1.1" 200 -
+[2024-04-25 19:17:59,464] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:17:59] "GET /batch_pred HTTP/1.1" 200 -
+[2024-04-25 19:18:01,622] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:18:01] "POST /batch_pred HTTP/1.1" 200 -
+[2024-04-25 19:18:04,031] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:18:04] "GET /batch_pred HTTP/1.1" 200 -
+[2024-04-25 19:18:27,790] root - INFO - Single Prediction page is loaded !!
+[2024-04-25 19:18:27,791] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:18:27] "GET /Single_pred HTTP/1.1" 200 -
+[2024-04-25 19:19:24,464] root - INFO -  Data is entered in Dataframe !!
+[2024-04-25 19:19:24,464] root - INFO - Sending data to pred pipeline !!
+[2024-04-25 19:19:24,485] root - INFO - Models are loaded!!
+[2024-04-25 19:19:24,485] root - INFO - Sending data for scaling and transformation!!
+[2024-04-25 19:19:24,488] root - INFO - Feature transformation is done !!
+[2024-04-25 19:19:24,488] root - INFO - Sending data for prediction!!
+[2024-04-25 19:19:24,506] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:19:24] "[35m[1mPOST /Single_pred HTTP/1.1[0m" 500 -
+[2024-04-25 19:19:24,803] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:19:24] "GET /Single_pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-04-25 19:19:24,824] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:19:24] "GET /Single_pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-04-25 19:19:25,165] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:19:25] "GET /Single_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-04-25 19:19:25,413] werkzeug - INFO - 127.0.0.1 - - [25/Apr/2024 19:19:25] "[36mGET /Single_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

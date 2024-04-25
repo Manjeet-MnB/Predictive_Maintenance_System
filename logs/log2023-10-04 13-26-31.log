@@ -1,0 +1,82 @@
+[2023-10-04 13:26:32,306] werkzeug - WARNING -  * Debugger is active!
+[2023-10-04 13:26:32,306] werkzeug - INFO -  * Debugger PIN: 141-134-222
+[2023-10-04 13:26:41,828] root - INFO - Main page is loaded !!
+[2023-10-04 13:26:41,828] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:26:41] "GET / HTTP/1.1" 200 -
+[2023-10-04 13:26:44,266] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:26:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-10-04 13:26:46,263] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:26:46] "GET /batch_pred HTTP/1.1" 200 -
+[2023-10-04 13:27:00,705] root - INFO - CSV received and Uploaded
+[2023-10-04 13:27:00,705] root - INFO - loading saved pipeline
+[2023-10-04 13:27:00,705] root - INFO - preprocessor  Object acessed:artifacts/pkls/preprocessor.pkl
+[2023-10-04 13:27:00,721] root - INFO - Model File Path: artifacts/pkls/model.pkl
+[2023-10-04 13:27:00,870] root - INFO - Uploaded csv for batch prediction is transformed and saved !!
+[2023-10-04 13:27:00,876] root - INFO - Columns before transformation: Cycle: int64, OpSet1: float64, OpSet2: float64, OpSet3: float64, SensorMeasure1: float64, SensorMeasure2: float64, SensorMeasure3: float64, SensorMeasure4: float64, SensorMeasure5: float64, SensorMeasure6: float64, SensorMeasure7: float64, SensorMeasure8: float64, SensorMeasure9: float64, SensorMeasure10: float64, SensorMeasure11: float64, SensorMeasure12: float64, SensorMeasure13: float64, SensorMeasure14: float64, SensorMeasure15: float64, SensorMeasure16: float64, SensorMeasure17: int64, SensorMeasure18: int64, SensorMeasure19: float64, SensorMeasure20: float64, SensorMeasure21: float64, Life_Ratio: float64
+[2023-10-04 13:27:00,904] root - INFO - Transformed Data Shape: (48108, 26)
+[2023-10-04 13:27:01,121] root - INFO - Predictions done :[1. 0. 1. ... 0. 2. 0.]
+[2023-10-04 13:27:01,186] root - INFO - Batch predictions saved to  : 'C:\Users\MANJEET\OneDrive\Documents\ML Projects\My Projects Resume based\Predictive maintenance\batch_Prediction\prediction_csv\predictions.csv'.
+[2023-10-04 13:27:01,190] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:27:01] "POST /batch_pred HTTP/1.1" 200 -
+[2023-10-04 13:28:27,249] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:28:27] "GET /batch_pred HTTP/1.1" 200 -
+[2023-10-04 13:28:29,832] root - INFO - Single Prediction page is loaded !!
+[2023-10-04 13:28:29,835] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:28:29] "GET /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:31:00,619] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:00] "[35m[1mPOST /Single_pred HTTP/1.1[0m" 500 -
+[2023-10-04 13:31:00,629] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:00] "GET /Single_pred?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-10-04 13:31:00,869] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:00] "GET /Single_pred?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-10-04 13:31:01,204] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:01] "GET /Single_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-10-04 13:31:01,450] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:01] "[36mGET /Single_pred?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-10-04 13:31:37,847] root - INFO -  Data is entered in Dataframe !!
+[2023-10-04 13:31:37,847] root - INFO - Sending data to pred pipeline !!
+[2023-10-04 13:31:37,861] root - INFO - Models are loaded!!
+[2023-10-04 13:31:37,861] root - INFO - Sending data for scaling and transformation!!
+[2023-10-04 13:31:37,865] root - INFO - Feature transformation is done !!
+[2023-10-04 13:31:37,865] root - INFO - Sending data for prediction!!
+[2023-10-04 13:31:37,870] root - INFO -  Prediction is done!!
+[2023-10-04 13:31:37,872] root - INFO - Got the result  !!
+[2023-10-04 13:31:37,872] root - INFO - The Engine is in  [1.] !!
+[2023-10-04 13:31:37,873] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:37] "POST /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:31:42,225] root - INFO - Single Prediction page is loaded !!
+[2023-10-04 13:31:42,225] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:31:42] "GET /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:32:00,511] root - INFO -  Data is entered in Dataframe !!
+[2023-10-04 13:32:00,511] root - INFO - Sending data to pred pipeline !!
+[2023-10-04 13:32:00,519] root - INFO - Models are loaded!!
+[2023-10-04 13:32:00,519] root - INFO - Sending data for scaling and transformation!!
+[2023-10-04 13:32:00,524] root - INFO - Feature transformation is done !!
+[2023-10-04 13:32:00,524] root - INFO - Sending data for prediction!!
+[2023-10-04 13:32:00,526] root - INFO -  Prediction is done!!
+[2023-10-04 13:32:00,526] root - INFO - Got the result  !!
+[2023-10-04 13:32:00,526] root - INFO - The Engine is in  [1.] !!
+[2023-10-04 13:32:00,526] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:32:00] "POST /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:32:02,342] root - INFO - Single Prediction page is loaded !!
+[2023-10-04 13:32:02,342] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:32:02] "GET /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:32:06,893] root - INFO -  Data is entered in Dataframe !!
+[2023-10-04 13:32:06,893] root - INFO - Sending data to pred pipeline !!
+[2023-10-04 13:32:06,908] root - INFO - Models are loaded!!
+[2023-10-04 13:32:06,908] root - INFO - Sending data for scaling and transformation!!
+[2023-10-04 13:32:06,911] root - INFO - Feature transformation is done !!
+[2023-10-04 13:32:06,911] root - INFO - Sending data for prediction!!
+[2023-10-04 13:32:06,914] root - INFO -  Prediction is done!!
+[2023-10-04 13:32:06,915] root - INFO - Got the result  !!
+[2023-10-04 13:32:06,916] root - INFO - The Engine is in  [1.] !!
+[2023-10-04 13:32:06,916] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:32:06] "POST /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:32:10,471] root - INFO - Single Prediction page is loaded !!
+[2023-10-04 13:32:10,471] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:32:10] "GET /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:35:08,824] root - INFO -  Data is entered in Dataframe !!
+[2023-10-04 13:35:08,824] root - INFO - Sending data to pred pipeline !!
+[2023-10-04 13:35:08,824] root - INFO - Models are loaded!!
+[2023-10-04 13:35:08,824] root - INFO - Sending data for scaling and transformation!!
+[2023-10-04 13:35:08,824] root - INFO - Feature transformation is done !!
+[2023-10-04 13:35:08,824] root - INFO - Sending data for prediction!!
+[2023-10-04 13:35:08,824] root - INFO -  Prediction is done!!
+[2023-10-04 13:35:08,840] root - INFO - Got the result  !!
+[2023-10-04 13:35:08,840] root - INFO - The Engine is in  [1.] !!
+[2023-10-04 13:35:08,841] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:35:08] "POST /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:35:46,954] root - INFO - Single Prediction page is loaded !!
+[2023-10-04 13:35:46,954] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:35:46] "GET /Single_pred HTTP/1.1" 200 -
+[2023-10-04 13:35:48,094] root - INFO -  Data is entered in Dataframe !!
+[2023-10-04 13:35:48,094] root - INFO - Sending data to pred pipeline !!
+[2023-10-04 13:35:48,109] root - INFO - Models are loaded!!
+[2023-10-04 13:35:48,109] root - INFO - Sending data for scaling and transformation!!
+[2023-10-04 13:35:48,112] root - INFO - Feature transformation is done !!
+[2023-10-04 13:35:48,112] root - INFO - Sending data for prediction!!
+[2023-10-04 13:35:48,114] root - INFO -  Prediction is done!!
+[2023-10-04 13:35:48,118] root - INFO - Got the result  !!
+[2023-10-04 13:35:48,118] root - INFO - The Engine is in  [1.] !!
+[2023-10-04 13:35:48,119] werkzeug - INFO - 127.0.0.1 - - [04/Oct/2023 13:35:48] "POST /Single_pred HTTP/1.1" 200 -

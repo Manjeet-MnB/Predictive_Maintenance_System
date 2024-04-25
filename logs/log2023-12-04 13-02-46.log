@@ -1,0 +1,17 @@
+[2023-12-04 13:02:47,306] werkzeug - WARNING -  * Debugger is active!
+[2023-12-04 13:02:47,308] werkzeug - INFO -  * Debugger PIN: 828-788-667
+[2023-12-04 13:02:53,600] root - INFO - Main page is loaded !!
+[2023-12-04 13:02:53,603] werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 13:02:53] "GET / HTTP/1.1" 200 -
+[2023-12-04 13:02:55,761] werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 13:02:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-12-04 13:02:59,358] root - INFO - Single Prediction page is loaded !!
+[2023-12-04 13:02:59,368] werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 13:02:59] "GET /Single_pred HTTP/1.1" 200 -
+[2023-12-04 13:03:41,057] root - INFO -  Data is entered in Dataframe !!
+[2023-12-04 13:03:41,058] root - INFO - Sending data to pred pipeline !!
+[2023-12-04 13:03:41,076] root - INFO - Models are loaded!!
+[2023-12-04 13:03:41,076] root - INFO - Sending data for scaling and transformation!!
+[2023-12-04 13:03:41,080] root - INFO - Feature transformation is done !!
+[2023-12-04 13:03:41,080] root - INFO - Sending data for prediction!!
+[2023-12-04 13:03:41,082] root - INFO -  Prediction is done!!
+[2023-12-04 13:03:41,082] root - INFO - Got the result  !!
+[2023-12-04 13:03:41,083] root - INFO - The Engine is in  [1.] !!
+[2023-12-04 13:03:41,084] werkzeug - INFO - 127.0.0.1 - - [04/Dec/2023 13:03:41] "POST /Single_pred HTTP/1.1" 200 -

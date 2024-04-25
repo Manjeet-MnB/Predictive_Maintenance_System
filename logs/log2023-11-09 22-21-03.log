@@ -1,0 +1,30 @@
+[2023-11-09 22:21:04,545] werkzeug - WARNING -  * Debugger is active!
+[2023-11-09 22:21:04,552] werkzeug - INFO -  * Debugger PIN: 828-788-667
+[2023-11-09 22:21:15,169] root - INFO - Main page is loaded !!
+[2023-11-09 22:21:15,172] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:21:15] "GET / HTTP/1.1" 200 -
+[2023-11-09 22:21:18,039] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:21:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-11-09 22:21:25,548] root - INFO - Single Prediction page is loaded !!
+[2023-11-09 22:21:25,558] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:21:25] "GET /Single_pred HTTP/1.1" 200 -
+[2023-11-09 22:22:05,516] root - INFO -  Data is entered in Dataframe !!
+[2023-11-09 22:22:05,516] root - INFO - Sending data to pred pipeline !!
+[2023-11-09 22:22:05,533] root - INFO - Models are loaded!!
+[2023-11-09 22:22:05,533] root - INFO - Sending data for scaling and transformation!!
+[2023-11-09 22:22:05,536] root - INFO - Feature transformation is done !!
+[2023-11-09 22:22:05,536] root - INFO - Sending data for prediction!!
+[2023-11-09 22:22:05,538] root - INFO -  Prediction is done!!
+[2023-11-09 22:22:05,540] root - INFO - Got the result  !!
+[2023-11-09 22:22:05,540] root - INFO - The Engine is in  [1.] !!
+[2023-11-09 22:22:05,542] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:22:05] "POST /Single_pred HTTP/1.1" 200 -
+[2023-11-09 22:22:12,456] root - INFO - Single Prediction page is loaded !!
+[2023-11-09 22:22:12,457] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:22:12] "GET /Single_pred HTTP/1.1" 200 -
+[2023-11-09 22:22:14,670] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:22:14] "GET /batch_pred HTTP/1.1" 200 -
+[2023-11-09 22:22:41,367] root - INFO - CSV received and Uploaded
+[2023-11-09 22:22:41,367] root - INFO - loading saved pipeline
+[2023-11-09 22:22:41,368] root - INFO - preprocessor  Object acessed:artifacts/pkls/preprocessor.pkl
+[2023-11-09 22:22:41,380] root - INFO - Model File Path: artifacts/pkls/model.pkl
+[2023-11-09 22:22:41,481] root - INFO - Uploaded csv for batch prediction is transformed and saved !!
+[2023-11-09 22:22:41,485] root - INFO - Columns before transformation: Cycle: int64, OpSet1: float64, OpSet2: float64, OpSet3: float64, SensorMeasure1: float64, SensorMeasure2: float64, SensorMeasure3: float64, SensorMeasure4: float64, SensorMeasure5: float64, SensorMeasure6: float64, SensorMeasure7: float64, SensorMeasure8: float64, SensorMeasure9: float64, SensorMeasure10: float64, SensorMeasure11: float64, SensorMeasure12: float64, SensorMeasure13: float64, SensorMeasure14: float64, SensorMeasure15: float64, SensorMeasure16: float64, SensorMeasure17: int64, SensorMeasure18: int64, SensorMeasure19: float64, SensorMeasure20: float64, SensorMeasure21: float64, Life_Ratio: float64
+[2023-11-09 22:22:41,504] root - INFO - Transformed Data Shape: (48108, 26)
+[2023-11-09 22:22:41,658] root - INFO - Predictions done :[1. 0. 1. ... 0. 2. 0.]
+[2023-11-09 22:22:41,716] root - INFO - Batch predictions saved to  : 'C:\Users\MANJEET\OneDrive\Documents\ML Projects\My Projects Resume based\Predictive maintenance(Completed)\batch_Prediction\prediction_csv\predictions.csv'.
+[2023-11-09 22:22:41,719] werkzeug - INFO - 127.0.0.1 - - [09/Nov/2023 22:22:41] "POST /batch_pred HTTP/1.1" 200 -
