@@ -1,11 +1,16 @@
 Predictive Maintenance System
-•Managed the entire data science project lifecycle, overseeing tasks such as data collection, cleaning,
-and preprocessing, as well as engaging in feature engineering, model development, and deployment
-to ensure a smooth flow of information.
-•Developed advanced machine learning algorithms to accurately predict the health status of
-machinery, classifying them into categories of good, moderate, or bad conditions.
-•Implemented predictive maintenance strategies, resulting in a 30% reduction in unplanned
-downtime and a 25% increase in overall equipment efficiency; proactively extended machinery
-lifespan and saved $500k in maintenance expenses annually.
-•This not only improved overall productivity but also contributed to a more sustainable and efficient
-operation
+
+Home Page
+<img width="1277" alt="PM1" src="https://github.com/Manjeet-MnB/Predictive_Maintenance_System/assets/71639295/112eedcd-8cf9-4598-a338-fe13f1e15577">
+
+
+Instance Prediction
+<img width="1280" alt="PM4" src="https://github.com/Manjeet-MnB/Predictive_Maintenance_System/assets/71639295/dad41c6e-7f9f-4e6f-a13f-26dadbe5d596">
+
+Output
+<img width="1268" alt="PM5" src="https://github.com/Manjeet-MnB/Predictive_Maintenance_System/assets/71639295/a0a5821b-fcde-4216-897a-3ed772a4c472">
+
+
+Batch Prediction
+<img width="1280" alt="PM3" src="https://github.com/Manjeet-MnB/Predictive_Maintenance_System/assets/71639295/6d58042d-8749-4fbf-8c55-4cd83d040a44">
+
